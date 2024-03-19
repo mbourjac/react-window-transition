@@ -4,8 +4,8 @@ import { SectioneOneItem } from './SectioneOneItem';
 
 export const SectionOne = () => {
   return (
-    <div className="h-screen p-4">
-      <div className="flex gap-4">
+    <div className="mt-[-200vh] h-[200vh] p-4">
+      <div className="sticky top-4 flex gap-4 ">
         <div className="grid grid-cols-[auto_1fr] grid-rows-[auto_1fr] gap-y-8 bg-[#FDFF00] px-12 xl:gap-4">
           <p className="border-b border-black text-6xl">sit amet</p>
           <div className="col-start-1 row-start-2 flex flex-col gap-4 xl:col-start-2">
