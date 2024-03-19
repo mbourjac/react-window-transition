@@ -3,7 +3,6 @@ import { useWindowTransition } from '../../../hooks/use-window-transition';
 import { HeroContent } from './HeroContent';
 import { HeroFooter } from './HeroFooter';
 import { HeroHeader } from './HeroHeader';
-import { HeroWindow } from './HeroWindow';
 
 export const Hero = () => {
   const { windowContainerRef, scale } = useWindowTransition();
@@ -18,10 +17,7 @@ export const Hero = () => {
         className="flex h-screen origin-[calc(100%-12rem)_21.35%] flex-col"
       >
         <HeroHeader />
-        <div className="flex grow flex-col">
-          <HeroContent />
-          <HeroWindow />
-        </div>
+        <HeroContent />
         <HeroFooter />
       </motion.div>
     </div>
