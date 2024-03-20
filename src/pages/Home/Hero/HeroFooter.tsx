@@ -2,7 +2,7 @@ import { HeroLink } from './HeroLink';
 
 export const HeroFooter = () => {
   return (
-    <footer className="flex h-14 items-center justify-between border-t border-black bg-white px-4">
+    <footer className="hidden h-14 items-center justify-between border-t border-black bg-[#FDFF00] px-4 md:flex xl:bg-white">
       <ul className="flex items-center gap-20">
         <li>
           <HeroLink to="tenetur">tenetur</HeroLink>
